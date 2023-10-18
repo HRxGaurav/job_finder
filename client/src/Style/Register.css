@@ -1,0 +1,293 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+
+}
+
+.register-form {
+  margin-left: 90px;
+
+}
+
+.registration-image {
+  max-width: 100%;
+  height: 100vh;
+  width: 80vh;
+
+}
+
+
+.main-heading {
+  color: #000;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: -5px;
+  word-spacing: 5px;
+}
+
+.sub-heading {
+  color: #525252;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+
+.tnc {
+  color: #525252;
+  font-size: 13;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.337px;
+}
+
+.sign-in {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144.023%;
+  text-decoration-line: underline;
+  margin-left: 10px;
+}
+
+.sign-button {
+  margin-top: 28px;
+  background-color: #ED5353;
+
+  border-radius: 5px;
+
+  border-style: hidden;
+  height: 42px;
+  width: 200px;
+
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  
+}
+
+.sign-input {
+  margin-top: 24px;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #C2C2C2;
+  background: #fff;
+  padding-left: 26px;
+  font-size: 15px;
+}
+
+.sign-input::placeholder {
+  color: #525252;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+
+
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border: 2px solid #007bff;
+  /* Change the border color to blue when focused */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  /* Add a shadow when focused */
+  outline: none;
+  /* Remove the default focus outline (if desired) */
+  font-size: 15px;
+
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+
+}
+
+.checkbox:checked {
+  accent-color: #858585;
+}
+
+.margin-checkbox {
+  margin-top: 11px;
+}
+
+
+
+/* jobpost */
+
+.container-job {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-grow: 1;
+}
+
+.jobpost-image {
+  max-width: 100%;
+  height: 100vh;
+  width: 80vh;
+}
+
+
+.jobpost-label {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 150px;
+}
+
+
+.jobpost-input {
+  border-radius: 4.603px;
+  border: 1.841px solid #C2C2C2;
+  background: #fff;
+
+  width: 400px;
+  height: 35px;
+  flex-shrink: 0;
+  margin-left: 100px;
+  margin-top: 12px;
+
+  padding-left: 20px;
+  font-size: 14px;
+  color: #ADADAD;
+}
+
+.jobpost-input::placeholder {
+  color: #ADADAD;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jobpost-select {
+  border-radius: 4.603px;
+  border: 1.841px solid #C2C2C2;
+  background: #fff;
+
+  width: 120px;
+  height: 35px;
+  flex-shrink: 0;
+  margin-left: 100px;
+  margin-top: 12px;
+
+  padding-left: 20px;
+  font-size: 14px;
+  color: #ADADAD;
+}
+
+.jobpost-input-textarea{
+  border-radius: 4.603px;
+  border: 1.841px solid #C2C2C2;
+  background: #fff;
+
+  width: 400px;
+  height: 70px;
+  flex-shrink: 0;
+  margin-left: 100px;
+
+  padding-left: 12px;
+  font-size: 15px;
+  color: #ADADAD;
+  resize: none;
+}
+
+.jobpost-input-textarea::placeholder {
+  color: #ADADAD;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.addjob-button {
+  margin-top: 28px;
+  background-color: #ED5353;
+
+  border-radius: 5px;
+
+  border-style: hidden;
+  height: 35px;
+  width: 150px;
+
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  
+}
+
+.cancel-button {
+  border-radius: 6.508px;
+  border: 0.848px solid #CECECE;
+  background: #fff;
+
+  width: 100px;
+  height: 35px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.button-alignment{
+  margin-left: 380px;
+}
+
+.input-wrapper {
+  display: flex;
+  vertical-align: top;
+  /* align-items: center ; */
+  margin-top: 12px;
+  
+}
+
+.labelDiv{
+  width: 150px;
+  margin-top: 17px;
+  
+}
+
+.main-input{
+  display: flex;
+  
+}
+
+.img-text{
+  position: absolute;
+  background-color: transparent;
+  color: #fff;
+
+  font-family: DM Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.img-text-reg{
+  position: absolute;
+  background-color: transparent;
+  color: #fff;
+
+  font-family: DM Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 10%;
+  margin-top: 3%;
+}

@@ -1,0 +1,91 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../Assets/Images/Navbar.png');
+    background-size: cover;
+    background-position: center;
+    height: 140px;
+
+    padding: 0 70px;
+    
+
+}
+
+/* Logo text */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+}
+
+/* Login and Register buttons */
+.buttons {
+    display: flex;
+    gap: 24px;
+    background-color: transparent;
+    
+}
+
+.register-button {
+    background-color: transparent;
+    border-radius: 7px;
+    background: #fff;
+    border-color: transparent;
+
+    color: #ED5353;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.023%;
+    text-decoration: none;
+    
+}
+
+.login-button {
+
+    border-radius: 7px;
+    border: 2px solid #fff;
+    background: transparent;
+    width: 113px;
+    height: 46px;
+    flex-shrink: 0;
+    
+
+
+    color: #fff;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.023%
+}
+
+.navlink-button1{
+    text-decoration: none;
+    background: transparent;
+    color: #fff;
+}
+
+.navlink-button2{
+    text-decoration: none;
+    background: transparent;
+    color: #ED5353;
+}
+
+.user-icon{
+    height: 54px;
+    width: 54px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.nav-text{
+    background-color: transparent;
+    color: white;
+}

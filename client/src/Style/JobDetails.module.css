@@ -1,0 +1,159 @@
+.post_detail {
+    background: #fff;
+    box-shadow: 0px 4px 23px 2px rgba(0, 0, 0, 0.10);
+    width: 1099px;
+    height: 147px;
+    margin: -20px auto;
+    z-index: 2;
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.023%;
+    padding: 33px 88px;
+
+}
+
+.job_deatil {
+    margin: 53px auto;
+    background: #fff;
+    box-shadow: 0px 2px 35px 1px rgba(0, 0, 0, 0.10);
+    width: 1099px;
+    padding: 48px 60px;
+}
+
+.logo {
+    width: 41px;
+    height: 42px;
+    margin: 0px 26px;
+    margin-top: -5px;
+}
+
+.names {
+    color: #999;
+    font-family: DM Sans;
+    font-size: 20.247px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.023%;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 144.023%;
+}
+
+.edit {
+    width: 161px;
+    height: 54px;
+    border-radius: 6px;
+    background: #ED5353;
+    border-style: none;
+    color: #fff;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 144.023%;
+    padding-top: 1.4%;
+}
+
+.location {
+    color: #ED5353;
+    font-family: DM Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.023%;
+}
+
+.stipend {
+    width: 28px;
+height: 28px;
+margin-bottom: -7px;
+margin-right:8px ;
+}
+
+.calender{
+    width: 22px;
+height: 22px;
+margin-bottom: -4px;
+margin-right:8px ;
+}
+
+.stidur{
+    color: #999;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 164.5%; 
+
+}
+
+.stipendAmount{
+    color: #595959;
+font-family: DM Sans;
+font-size: 20.247px;
+font-style: normal;
+font-weight: 500;
+line-height: 144.023%;
+}
+
+.durationAmount{
+    color: #595959;
+    font-family: DM Sans;
+    font-size: 20.247px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.023%; 
+}
+
+.about{
+    color: #000;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 169.523%; 
+    margin-top: 56px;
+}
+
+.aboutCompany{
+    margin-top: 22px;
+    color: #595959;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.5%; 
+}
+
+.job_skill {
+    display: flex;
+    margin-top: 29px;
+}
+
+.job_skills {
+    border-radius: 21px;
+background: #FEE;
+padding: 0 25px;
+height: 39px;
+border-style: none;
+margin-right: 27px;
+
+color: #595959;
+font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 169.523%; 
+}

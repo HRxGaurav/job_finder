@@ -1,0 +1,132 @@
+.job-main {
+    width: 1097px;
+    padding-bottom: 37px;
+
+    background: #fff;
+    box-shadow: 0px 0px 22px 4px rgba(255, 32, 32, 0.25);
+
+    margin: 32px auto;
+    margin-bottom: 42px;
+
+}
+
+.jobfilter-input {
+    border-radius: 9px;
+    border: 1.8px solid #E3E3E3;
+    background: #fff;
+    width: 946px;
+    height: 62px;
+    margin: 27px 75px;
+    padding-left: 60px;
+    font-weight: 500;
+    font-family: DM Sans;
+}
+
+
+
+
+.search-icon {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -1000px;
+    width: 27px;
+    height: 27px;
+}
+
+.jobfilter-select {
+    border-radius: 9px;
+    border: 2px solid #CECECE;
+    background: #fff;
+    width: 143px;
+    height: 46px;
+    padding: 0 30px;
+    font-weight: 500;
+    font-family: Roboto;
+    color: #9C9C9C;
+    
+}
+
+.jobfilter-select select {
+    padding-right: 0 30px;
+    
+    
+}
+
+
+.filter-addjob {
+    width: 182px;
+    height: 52.897px;
+    flex-shrink: 0;
+    border-style: none;
+    border-radius: 8.069px;
+    background: #ED5353;
+    color: #fff;
+    font-size: 22.414px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: 20px;
+    font-family: 'Roboto';
+
+}
+
+.filter-clear {
+    color: #ED5353;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.023%;
+    margin: 0 -60px;
+    margin-top: 50px;
+    border-style: none;
+    background-color: transparent;
+}
+
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin: 20px 75px;
+}
+
+.filter-tag {
+    background: #FEE;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 133px;
+    height: 46px;
+    margin: 0 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+
+    padding-left: 17px;
+    font-size: 16.38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.023%;
+
+}
+
+.x-button {
+    background: #FF6B6B;
+    border-radius: 0px 2px 2px 0px;
+
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 30px;
+    font-weight: 500;
+    width: 41px;
+    height: 46px;
+}
