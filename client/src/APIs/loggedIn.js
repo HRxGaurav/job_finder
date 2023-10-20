@@ -3,7 +3,7 @@ import Cookies from "js-cookie";
 const loggedIn = async () => {
     try {
         // eslint-disable-next-line
-      const response = await fetch('/loggedin', {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND}/loggedin`, {
         headers: {
             'Content-Type': 'application/json',
             'Authorization': `${Cookies.get('token')}`

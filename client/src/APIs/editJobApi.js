@@ -7,7 +7,7 @@ const editJobApi = async (req) => {
       ...jobDescription
     };
 
-    const response = await fetch(`/editjob/${params}`, {
+    const response = await fetch(`${process.env.REACT_APP_BACKEND}/editjob/${params}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

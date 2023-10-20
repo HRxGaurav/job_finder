@@ -6,7 +6,7 @@ const jobPostApi = async (jobDescription) => {
       ...jobDescription
     };
 
-    const response = await fetch('/jobpost', {
+    const response = await fetch(`${process.env.REACT_APP_BACKEND}/jobpost`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

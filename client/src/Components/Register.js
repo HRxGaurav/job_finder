@@ -21,7 +21,7 @@ function Register() {
 
     const { name, email, phone, password } = formData;
 
-    const res = await fetch('/register', {
+    const res = await fetch(`${process.env.REACT_APP_BACKEND}/register`, {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
@@ -35,7 +35,6 @@ function Register() {
     const data = await res.json();
 
     if (res.status === 201) {
-      console.log(data);
       window.alert("Sucessfull Register")
       Cookies.set('token', data.token, { expires: 7 });
       Cookies.set('name', data.name, { expires: 7 });
