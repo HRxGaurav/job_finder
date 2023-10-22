@@ -1,7 +1,6 @@
 const getJobApi = async (skillsRequired, jobPosition) => {
 
     try {
-        // const reqUrl = 'https://job-finder-app-z93s.onrender.com/getjobs'; // Replace with your actual API endpoint for filtering jobs
         const reqUrl = `${process.env.REACT_APP_BACKEND}/getjobs`;
         const requestBody = {
             skills_required: skillsRequired,
