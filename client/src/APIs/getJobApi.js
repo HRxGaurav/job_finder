@@ -1,7 +1,3 @@
-// import dotenv from 'dotenv'
-
-// dotenv.config()
-
 const getJobApi = async (skillsRequired, jobPosition) => {
 
     try {
