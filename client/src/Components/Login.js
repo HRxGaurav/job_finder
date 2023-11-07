@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom'
 import LoginSignUp from '../Assets/Images/LoginSignUp.jpg'
@@ -8,6 +8,7 @@ import { ToastContainer, toast } from 'react-toastify';
 const Login = () => {
       const navigate = useNavigate();
     const [formData, setFormData] = useState({ email: '', password: '' });
+    const [logged, setLogged] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -21,7 +22,7 @@ const Login = () => {
 
         const { email, password } = formData;
 
-        const res = await fetch('/login', {
+        const res = await fetch(`${process.env.REACT_APP_BACKEND}/login`, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -37,18 +38,18 @@ const Login = () => {
 
         if (res.status === 200) {
             // window.alert("logged in")
-            toast.success("Wow so easy!");
             
+            setLogged(true);
             Cookies.set('token', data.token, { expires: 7 });
             Cookies.set('name' , data.name, {expires: 7})
-              navigate('/')
+            navigate('/')
+            
         } else {
             window.alert("invalid Details")
         }
     };
 
-
-    
+        
 
     return (
 
@@ -73,7 +74,6 @@ const Login = () => {
                         <br />
                         <button className='sign-button' onClick={loginButton}>Sign in</button>
                         <ToastContainer position="top-center" hideProgressBar={false}/>
-
 
                         <h1 className='sub-heading'>Don’t have an account?<span className='sign-in'><NavLink to="/Register" >Sign Up</NavLink></span></h1>
 
