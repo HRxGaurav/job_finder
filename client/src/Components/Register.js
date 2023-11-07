@@ -35,7 +35,7 @@ function Register() {
     const data = await res.json();
 
     if (res.status === 201) {
-      window.alert("Sucessfull Register")
+      window.alert("Successful Register")
       Cookies.set('token', data.token, { expires: 7 });
       Cookies.set('name', data.name, { expires: 7 });
         navigate('/')
